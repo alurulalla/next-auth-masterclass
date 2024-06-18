@@ -64,3 +64,7 @@ export const {
   session: { strategy: 'jwt' },
   ...authConfig,
 });
+
+// DATABASE_URL="postgresql://auth-pro_owner:eJqZngV8a@ep-sun-a5mfvpg7.us-east-2.aws.neon.tech"
+// # uncomment next line if you use Prisma <5.10
+// DATABASE_URL_UNPOOLED="postgresql://auth-pro_owner:eJqZngV8a@ep-sun-a5mfvpg7.us-east-2.aws.neon.tech"
